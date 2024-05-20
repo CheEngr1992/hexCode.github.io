@@ -1,0 +1,264 @@
+@media (max-width: 1200px) {
+    .container{
+        width: 840px;
+    }
+    
+/*---Hero Section---*/
+    .second-hero-section{
+    display: flex;
+    flex-direction: column;
+    }
+    .third-hero-section{
+        margin-top: 2rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    .greetings{
+        text-align: center;
+    }
+    .arrow-1{
+        width: 8rem;
+    }
+    .Profile-Picture{
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40rem;
+    }
+    .hero-sentence{
+        margin-top: -1rem;
+    }
+    .header-links{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+    .link{
+        font-size: 1.7rem;
+    }
+    body .Profile-Picture {
+        animation: none; /* Disable the animation */
+        scale: 1; /* Reset the scale to default */
+        opacity: 1; /* Reset the opacity to fully visible */
+    }
+    body .header-link {
+        animation: none; /* Disable the animation */
+        scale: 1; /* Reset the scale to default */
+        opacity: 1; /* Reset the opacity to fully visible */
+    }
+
+
+/*---Service Commercial Section---*/
+    .service-commercial{
+        padding: 4.8rem 0 9.6rem 0;
+        margin-top: 0;
+    }
+    .service-header{
+        width: 90%;
+        margin-top: -3rem;
+    }
+    .service-sentence{
+        margin-top: 1rem;
+    }
+    .experiences{
+        margin-top: 1rem;
+        display: flex;
+        gap: 1px;
+    }
+    .experiences-sentences{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: -2rem;
+    }
+    .smm-picture{
+        width: 30rem;
+        height: 30rem;
+    }
+/*---Sample Project Section---*/
+    .project-x-picture{
+        margin-top: -3rem;
+        width: 35rem;
+    }
+    .project-header{
+        margin-bottom: -5rem;
+    }
+    .port-card-image{
+        width: 20rem;
+        height: 17rem;
+    }
+    .project-right{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .grid-display{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .project-sentence{
+        margin-top: 1rem;
+    }
+    .tool-picture{
+        width: 7rem;;
+    }
+/*--FOOTER LINKS----*/
+    .links{
+    display: flex;
+    flex-direction: column;
+    gap: .1rem
+    }
+  }
+
+  
+
+
+
+/*------------------768PX----------------------------------*/
+
+  @media (max-width: 768px) {
+    .container{
+        width: 590px;
+    }
+    .service-header{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .sentencing{
+        font-size: 1.3rem;
+        line-height: 22px;
+    }
+    .grid-display .tool-picture{
+        width: 5rem;
+    }
+    .years p{
+        font-size: 1.8rem;
+    }
+    .corporate .experiences-sentences{
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+
+    .freelance .experiences-sentences{
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+
+/*---Hero Section---*/
+    .second-hero-section{
+    display: flex;
+    flex-direction: column;
+    }
+    .greetings{
+        margin-left: 8rem;
+    }
+    .third-hero-section{
+        margin-top: 2rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    .arrow-1{
+        width: 8rem;
+    }
+    .Profile-Picture{
+        top:52%;
+        left: 70%;
+        width: 40rem;
+    }
+    .hero-sentence{
+        margin-top: -1rem;
+    }
+    .header-links{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+    .link{
+        font-size: 1.3rem;
+    }
+    body .Profile-Picture {
+        animation: none; /* Disable the animation */
+        scale: 1; /* Reset the scale to default */
+        opacity: 1; /* Reset the opacity to fully visible */
+    }
+
+/*---Service Commercial Section---*/
+    .service-commercial{
+        padding: 4.8rem 0 9.6rem 0;
+        margin-top: 0;
+    }
+    .service-header{
+        width: 90%;
+        margin-top: -3rem;
+    }
+    .service-sentence{
+        margin-top: 1rem;
+    }
+    .experiences{
+        margin-top: 1rem;
+        display: flex;
+        gap: 1px;
+    }
+    .experiences-sentences{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: -2rem;
+    }
+    .smm-picture{
+        width: 30rem;
+        height: 30rem;
+    }
+/*---Sample Project Section---*/
+    .project-x-picture{
+        margin-top: -3rem;
+        width: 30rem;
+    }
+    .project-header{
+        margin-bottom: -5rem;
+        font-size: 2rem;
+    }
+    .port-card-image{
+        width: 13rem;
+        height: 10rem;
+    }
+    .project-right{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .grid-display{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .project-sentence{
+        margin-top: 1rem;
+    }
+    .tool-picture{
+        width: 7rem;;
+    }
+    .service-offered{
+        width: 12rem;
+
+    }
+    .services-header{
+        font-size: 1rem;
+        max-width: 120rem;
+    }
+    .card-label{
+        font-size: 1rem;
+    }
+/*--FOOTER LINKS----*/
+    .links{
+    display: flex;
+    flex-direction: column;
+    gap: .1rem
+    }
+
+  }
+  
+  

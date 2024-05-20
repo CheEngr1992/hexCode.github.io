@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakarta Sans",sans-serif;
+    /* line-height: 1; */
+    font-weight: 400;
+    color: white;  
+    background-color: rgb(0, 0, 0);
+}
+
+html {
+    /*10px / 16px = 0.625 */
+    font-size: 62.5%;
+    
+}
+
+/*---HERO SECTION---*/
+.hero-section {
+    padding: 4.8rem 0 9.6rem 0;
+    margin-top: 7rem;
+    
+}
+
+.hero-container {
+  margin: 0 auto;
+  position: relative;
+  width: 120rem;
+
+  /* 
+  margin: 0 30rem;
+  width: 120rem;
+  background-color: yellow; */
+}
+.top-hero-section{
+    display: flex;
+    gap: 14rem;
+    align-items: center;
+}
+.greetings{
+    font-size: 9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 16rem;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.nav-link {
+    font-size: 2rem;
+    display: flex;
+    gap: 1.4rem;
+}
+
+.header-link{
+    width: 18%;
+    z-index: 4;
+}
+
+.second-hero-section{
+    display: flex;
+    gap: 30rem;
+    justify-content: space-between;
+    margin-top: 6rem;
+
+}
+.link-divide{
+    display: flex;
+    gap: 12rem;
+}
+.header-links{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.my-name {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.my-name h1 {
+    font-size: 7.5rem;
+    font-weight: 900;
+    letter-spacing: .6rem;
+}
+.right-second-hero-section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: relative;
+}
+.arrow-1{
+    width: 35%;
+    max-width: 20%;
+    position: absolute;
+    top: 16rem;
+    right: 0rem;
+    z-index: -2;
+}
+
+.hero-sentence{
+    font-size: 1.563rem;
+    line-height: 3rem;
+    max-width: 50rem;
+    z-index: 2;
+}
+
+.third-hero-section{
+    margin-top: 2rem;
+    display: flex;
+    gap: 22rem;
+    justify-content: space-between;
+}
+
+.hero-prof{
+    font-size: 2rem;
+    color: #FF7400;
+    max-width: 40rem;
+    line-height: 4rem;
+}
+
+.CTA-buttons{
+    font-size: 2rem;
+}
+
+.hero-CTAs{
+    display: flex;
+    gap: 2.5rem;
+    font-weight: bold;
+    align-items: center;
+   
+}
+
+.CTA-1{
+    background-color: #FF7400;
+    color: black;
+    padding: 1.2rem 3rem;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.CTA-2 {
+    border: 1px solid #FF7400;
+    padding: 1.2rem 3rem;
+    border-radius: 3rem;
+    color: #FF7400;
+    text-align: center;
+}
+.Profile-Picture{
+    width: auto;
+    position: absolute;
+    bottom: -10rem;
+    left: 48%;
+    transform: translate(-50%);
+}
+
+
+/*------EDUCATION BACKGROUND---------*/
+.Educational-background{
+    padding: 4.8rem 0 9.6rem 0;
+    /* height:78rem; */
+    margin-top: 5rem;
+}
+.educ-background-section{
+    max-width: 500rem;
+    width: 120rem;
+    margin:0 auto;
+}
+.educ-background{
+    font-size: 3.5rem;
+}
+.educ-journey-card{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.educ-card{
+    background-color: #0c0908;
+    width: 30rem;
+    height: 20rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 5rem;
+}
+.horizontal-line {
+    border-color: #FF7400;
+    margin: 0 50rem;
+}
+.smm-picture{
+    width: 55rem;
+    height: 55rem;  
+}
+.experiences-sentences{
+    font-size: 6rem;
+}
+/*-------SERVICE COMMERCIAL SECTION----------*/
+.service-commercial{
+    padding: 4.8rem 0 9.6rem 0;
+    /* height:78rem; */
+    margin-top: 5rem;
+    background-color: #0c0908;
+}
+.service-commercial-section{
+    max-width: 500rem;
+    width: 120rem;
+    margin:0 auto;
+    display: flex;
+    gap: 3rem;
+}
+
+.serv-com-left{
+    margin-top: 6rem;
+}
+
+.experiences{
+    margin-top: 5rem;
+    display: flex;
+    gap: 2.1rem;
+}
+.experiences p {
+    letter-spacing: 1.3px;
+}
+
+.freelance{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.years p {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #FF7400;
+}
+
+.experiences-sentences{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.corporate{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+/*------SERVICES SECTION---------*/
+.my-services{
+    padding: 4.8rem 0 9.6rem 0;
+    /* height:78rem; */
+    margin-top: 3rem;
+}
+.my-services-container{
+    margin: 0 auto;
+    max-width: 500rem;
+    width: 120rem;
+}   
+.service-header{
+    font-size: 4rem;
+    width: 60rem;
+    line-height: 6rem;
+}
+.service-sentence{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    max-width: 60rem;
+    margin-top: 3rem;
+}
+.left-side-services{
+    margin-top: 7rem;
+}
+.services-content {
+    display: flex;
+    gap: 5rem;
+}
+.right-service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.service-offered{
+    background-color: #0c0908;
+    width: 18rem;
+    height: 15rem;
+    border-radius: 2rem;
+    padding: 4rem 2rem;
+    overflow: hidden;
+    position: relative;
+}
+.card-paosition-absolute{
+    width: 6rem;
+    transform: rotate(35deg);
+    position: absolute;
+    top: -.5rem;
+    right: -2rem;
+}
+
+.services-picture{
+    width: 3rem;
+}
+.services-header{
+    font-size: 1rem;
+    max-width: 120rem;
+    margin-top: 2rem;
+}
+/*-----SAMPLE PROJECT SECTION-------*/
+.sample-project{
+    padding: 4.8rem 0 9.6rem 0;
+    background-color: #0c0908;
+}
+.sample-projects-section{
+    max-width: 500rem;
+    width: 120rem;
+    margin: 0 auto;
+}
+.projects{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.project-left{
+    display:flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.project-x-picture{
+    width: 50rem;
+    border-radius: 2rem;
+}
+.project-header{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+.project-header{
+    margin-top: 0;
+    font-size: 4rem;
+}
+.project-sentence{
+    margin-top: -2rem;
+}
+.phone-mock-up{
+    width: 55rem;
+}
+.port-card-image{
+    width: 30rem;
+    border-radius: 2rem;
+}
+.project-right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.portfolio-images{
+    position: relative;
+}
+.card-label{
+    position: absolute;
+    letter-spacing: 1.7px;
+    color: #FF7400;
+    top:2rem;
+    left: 2rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+/*---TOOL SECTION------*/
+.tools{
+    padding: 4.8rem 0 9.6rem 0;
+}
+.tools-section{
+    margin: 0 auto;
+    max-width: 500rem;
+    width: 120rem;
+}
+
+.tool-picture {
+    width: 10rem;
+    border-radius: 1.5rem;
+}
+
+.grid-display {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2rem;
+    align-items: center;
+    background-color: #0c0908;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.limit{
+    width: 65%;
+}
+.tool-content{
+    display: flex;
+    gap: 2em;
+}
+.tool-right-content{
+    margin-top: 7rem;
+}
+.tool-right-content .tool-sentence{
+    margin-top:.5rem;   
+}
+/**-----FOOTER HEADER-------**/
+.footer{
+    padding: 4.8rem 0 9.6rem 0;
+    /* height:78rem; */
+    margin-top: 1rem;
+    background-color: #1E1E1E;
+}
+.footer-content{
+    margin: 0 auto;
+    max-width: 500rem;
+    width: 120rem;
+}
+.footer-header{
+    font-size: 2rem;
+}
+.footer-display{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 3rem;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 10rem;
+}
+/***------ANIMATION-------***/
+body .Profile-Picture {
+    animation: fade linear forwards;
+    scale: 0;
+    opacity: 0%;
+    animation-timeline: view();
+    animation-range-start:entry -30px ;
+    animation-range-end: exit 1px;
+    transform-origin: bottom;
+}
+
+@keyframes fade {
+    100%{
+        scale: 1;
+        opacity: 100%;
+    }
+} 
+
+.anim {
+    animation: CSSscrollReaveal ease-in-out both;
+    animation-timeline: view();
+    animation-range:  entry 50% cover 50%;
+}
+
+h1, p {
+    animation: CSSscrollReaveal ease-in-out both;
+    animation-timeline: view();
+    animation-range:  entry 50% cover 50%;
+}
+
+@keyframes CSSscrollReaveal {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
